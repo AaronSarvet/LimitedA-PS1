@@ -1,0 +1,9 @@
+library(dplyr)
+library(pracma)
+library(mc2d)
+library(dplyr)
+library("multicool")
+library(xtable)
+library("latex2exp")
+library(parallel)
+expit<-function(x){1/(1+exp(-x))}
